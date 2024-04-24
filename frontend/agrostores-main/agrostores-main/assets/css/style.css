@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    background: #f8f8f8;
+    overflow-x:  hidden !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header section and nav */
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    /* box-shadow:; */
+}
+nav{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.links ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    font-weight: 600;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.btn, button{
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    background: rgb(48, 180, 48);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.logo, .logo .primary{
+    font-size: 2rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.primary{
+    color: rgb(48, 180, 48);
+}
+footer{
+    width: 100vw;
+    background: #0d0b0b;
+    color: #fff;
+    height: 30vh;
+    padding: 20px;
+}
+.footer{
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+.hero{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: url("../images/home.jpg") no-repeat center center ;
+}
+.tagline{
+    font-size: 3rem;
+    width: 70%;
+    padding-left: 2rem;
+}
+.tagline button{
+    font-size: 1.2rem;
+    background: #000000;
+    padding: 10px 30px;
+    color: rgb(48, 180, 48);
+    font-weight: 600;
+}
+btn:hover, button:hover{
+    box-shadow: 0px 0px 30px rgb(48, 180, 48);
+}
+.featured{
+    width: 100vw;
+    margin-top: 2rem;
+}
+.featured h2, .ser{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 2.5rem;
+    position: relative;
+}
+.featured h2::after, .ser::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    border-bottom: 5px solid rgb(48, 180, 48);
+    width: 80%;
+}
+.cards{
+    width: 90vw;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.card{
+    background: #111;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 10px 10px;
+    color: #fff;
+}
+.card:nth-child(2), .card:nth-child(3){
+    margin: auto 50px;
+}
+.card:nth-child(2){
+    margin-right: 25px;
+}
+.card:nth-child(3){
+    margin-left: 25px;
+}
+.card p, .card h4, .card h5{
+    padding: 2px 40px;
+
+}
+.card button{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgb(48, 180, 48);
+    letter-spacing: 1.1;
+}
+.cards img{
+    width: 100%; 
+    border-radius: 0px 0px 10px 10px;
+    height: auto;
+}
+
+.more  {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90vw;
+    margin: 10px auto;
+}
+.services {
+    display: flex;
+    width: 90vw;
+    margin: 50px auto;
+}
+.service{
+    align-self: center;
+    font-size: 2rem;
+}
+.testimonials{
+    display: flex;
+    gap: 50px;
+    width: 90vw;
+    margin: 40px auto;
+}
+.testimonials img{
+    width: 200px;
+    height: 200px;
+    box-shadow:  0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial{
+    text-align: center;
+    flex: 1;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.testimonials_ .primary{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.name{
+    color: rgb(48, 180, 48);
+    font-weight: 500;
+}
+.job{
+    color: tomato;
+    font-weight: 300;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 20px auto 40px;
+    gap: 50px;
+}
+.blogs img{
+    width: 100%;
+    
+}
