@@ -3,14 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow-x:  hidden !important;
 }
 .body{
     background: #f8f8f8;
+    overflow-x:  hidden !important;
 }
 html{
     scroll-behavior: smooth;
-
 }
 /* header section and nav */
 header{
@@ -76,7 +75,7 @@ footer{
     
 }
 .hero{
-    height: 80vh;
+    height: 50vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -86,6 +85,9 @@ footer{
     font-size: 3rem;
     width: 70%;
     padding-left: 2rem;
+}
+.tagline span{
+    color: rgb(125, 195, 19);
 }
 .tagline button{
     font-size: 1.2rem;
@@ -97,6 +99,7 @@ footer{
 btn:hover, button:hover{
     box-shadow: 0px 0px 30px rgb(48, 180, 48);
 }
+
 .featured{
     width: 100vw;
     margin-top: 2rem;
@@ -120,6 +123,7 @@ btn:hover, button:hover{
     width: 90vw;
     display: flex;
     margin: 20px auto;
+
     justify-content: space-between;
 }
 .card{
@@ -152,67 +156,4 @@ btn:hover, button:hover{
     width: 100%; 
     border-radius: 0px 0px 10px 10px;
     height: auto;
-}
-
-.more  {
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 90vw;
-    margin: 10px auto;
-}
-.services {
-    display: flex;
-    width: 90vw;
-    margin: 50px auto;
-}
-.service{
-    align-self: center;
-    font-size: 2rem;
-}
-.testimonials{
-    display: flex;
-    gap: 50px;
-    width: 90vw;
-    margin: 40px auto;
-}
-.testimonials img{
-    width: 200px;
-    height: 200px;
-    box-shadow:  0px 0px 6px 1px rgba(0, 0, 0, 0.5);
-    object-fit: cover;
-    border-radius: 50%;
-}
-.testimonial{
-    text-align: center;
-    flex: 1;
-    border-radius: 10px;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
-}
-.testimonials_ .primary{
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2rem;
-}
-.name{
-    color: rgb(48, 180, 48);
-    font-weight: 500;
-}
-.job{
-    color: tomato;
-    font-weight: 300;
-}
-.blogs{
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 20px auto 40px;
-    gap: 50px;
-}
-.blogs img{
-    width: 100%;
-    
 }

@@ -35,6 +35,13 @@ li{
     text-decoration: none;
     color: #000000; 
 }  
+.decompte{
+    color: #000000;
+    position: relative;
+    font-size: 15px;
+font-weight: bold;
+  
+}
 .btn2, button{
     padding: 10px 20px;
     border: none;
